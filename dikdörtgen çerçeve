@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	
+	int i, j;
+	int lenght, height;
+	
+	printf("Enter lenght:");
+	scanf("%d", &lenght);
+	printf("Enter height:");
+	scanf("%d", &height);
+	
+	for (i=1; i<=1; i++){
+		for(j=1; j<= height; j++){
+			printf("1");
+		}
+	}
+	printf("\n");
+	
+	for (i=2; i< lenght; i++){
+		
+		for (j=1; j<=1; j++){
+			
+			printf("1");
+		}
+		
+		for (j=2; j< height; j++){
+			printf("0");
+			
+		}
+		
+		for(j= height; j <=height; j++){
+			
+			printf("1");
+		}
+		printf("\n");
+	}
+	
+	for (i=lenght; i<=lenght; i++){
+	
+		for(j=1; j<= height; j++){
+			printf("1");
+		}
+	}
+	return 0;
+}
